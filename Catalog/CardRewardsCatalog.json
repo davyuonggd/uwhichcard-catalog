@@ -1,0 +1,482 @@
+{
+  "cards": [
+    {
+      "issuer": "Chase",
+      "names": [
+        "Freedom Unlimited",
+        "Chase Freedom Unlimited"
+      ],
+      "cashbacks": [
+        {
+          "percent": 3,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Drugstore"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Chase",
+      "names": [
+        "Freedom Flex",
+        "Chase Freedom Flex"
+      ],
+      "cashbacks": [
+        {
+          "percent": 3,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Drugstore"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Chase",
+      "names": [
+        "Sapphire Preferred",
+        "Chase Sapphire Preferred"
+      ],
+      "cashbacks": [
+        {
+          "percent": 3,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Grocery",
+            "Online Shopping",
+            "Streaming Services"
+          ],
+          "neverExpired": true
+        },
+        {
+          "percent": 2,
+          "categories": [
+            "Travel"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Chase",
+      "names": [
+        "Sapphire Reserve",
+        "Chase Sapphire Reserve"
+      ],
+      "cashbacks": [
+        {
+          "percent": 3,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Travel"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Chase",
+      "names": [
+        "Ink Business Cash",
+        "Chase Ink Business Cash",
+        "Ink Cash"
+      ],
+      "cashbacks": [
+        {
+          "percent": 5,
+          "categories": [
+            "Streaming Services"
+          ],
+          "neverExpired": true
+        },
+        {
+          "percent": 2,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Gas Station"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Chase",
+      "names": [
+        "Amazon Prime Visa",
+        "Prime Visa",
+        "Amazon Rewards Visa"
+      ],
+      "cashbacks": [
+        {
+          "percent": 5,
+          "categories": [
+            "Amazon"
+          ],
+          "neverExpired": true
+        },
+        {
+          "percent": 2,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Gas Station"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "American Express",
+      "names": [
+        "Blue Cash Preferred",
+        "Amex Blue Cash Preferred"
+      ],
+      "cashbacks": [
+        {
+          "percent": 6,
+          "categories": [
+            "Grocery",
+            "Supermarket",
+            "Streaming Services"
+          ],
+          "neverExpired": true
+        },
+        {
+          "percent": 3,
+          "categories": [
+            "Gas Station"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "American Express",
+      "names": [
+        "Blue Cash Everyday",
+        "Amex Blue Cash Everyday"
+      ],
+      "cashbacks": [
+        {
+          "percent": 3,
+          "categories": [
+            "Grocery",
+            "Supermarket",
+            "Online Shopping",
+            "Gas Station"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "American Express",
+      "names": [
+        "Gold Card",
+        "Amex Gold",
+        "American Express Gold"
+      ],
+      "cashbacks": [
+        {
+          "percent": 4,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Grocery",
+            "Supermarket"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Capital One",
+      "names": [
+        "Savor",
+        "Savor Cash Rewards",
+        "Capital One Savor"
+      ],
+      "cashbacks": [
+        {
+          "percent": 3,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Grocery",
+            "Supermarket",
+            "Streaming Services"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Wells Fargo",
+      "names": [
+        "Autograph",
+        "Wells Fargo Autograph"
+      ],
+      "cashbacks": [
+        {
+          "percent": 3,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Travel",
+            "Gas Station",
+            "Streaming Services"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Citi",
+      "names": [
+        "Strata Premier",
+        "Citi Strata Premier",
+        "Citi Premier"
+      ],
+      "cashbacks": [
+        {
+          "percent": 3,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Grocery",
+            "Supermarket",
+            "Gas Station",
+            "Travel"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Citi",
+      "names": [
+        "Costco Anywhere",
+        "Costco Anywhere Visa",
+        "Costco Visa"
+      ],
+      "cashbacks": [
+        {
+          "percent": 4,
+          "categories": [
+            "Gas Station"
+          ],
+          "neverExpired": true
+        },
+        {
+          "percent": 3,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Travel"
+          ],
+          "neverExpired": true
+        },
+        {
+          "percent": 2,
+          "categories": [
+            "Wholesale Clubs"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Bank of America",
+      "names": [
+        "Customized Cash Rewards",
+        "Bank of America Customized Cash Rewards"
+      ],
+      "cashbacks": [
+        {
+          "percent": 2,
+          "categories": [
+            "Grocery",
+            "Supermarket",
+            "Wholesale Clubs"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Discover",
+      "names": [
+        "it Chrome",
+        "Discover it Chrome",
+        "Chrome"
+      ],
+      "cashbacks": [
+        {
+          "percent": 2,
+          "categories": [
+            "Gas Station",
+            "Dining",
+            "Restaurant"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "U.S. Bank",
+      "names": [
+        "Altitude Connect",
+        "US Bank Altitude Connect",
+        "U.S. Bank Altitude Connect"
+      ],
+      "cashbacks": [
+        {
+          "percent": 4,
+          "categories": [
+            "Travel"
+          ],
+          "neverExpired": true
+        },
+        {
+          "percent": 2,
+          "categories": [
+            "Gas Station"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "U.S. Bank",
+      "names": [
+        "Cash+",
+        "US Bank Cash+",
+        "U.S. Bank Cash Plus"
+      ],
+      "cashbacks": [
+        {
+          "percent": 2,
+          "categories": [
+            "Grocery",
+            "Supermarket"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Navy Federal",
+      "names": [
+        "More Rewards",
+        "Navy Federal More Rewards",
+        "More Rewards American Express"
+      ],
+      "cashbacks": [
+        {
+          "percent": 3,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Grocery",
+            "Supermarket",
+            "Gas Station"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "PayPal",
+      "names": [
+        "PayPal Cashback Mastercard",
+        "PayPal Cashback",
+        "Synchrony PayPal Cashback"
+      ],
+      "cashbacks": [
+        {
+          "percent": 3,
+          "categories": [
+            "Paypal"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Target",
+      "names": [
+        "RedCard",
+        "Target RedCard",
+        "Target Credit Card"
+      ],
+      "cashbacks": [
+        {
+          "percent": 5,
+          "categories": [
+            "Target"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "Verizon",
+      "names": [
+        "Verizon Visa",
+        "Verizon Visa Card"
+      ],
+      "cashbacks": [
+        {
+          "percent": 4,
+          "categories": [
+            "Dining",
+            "Restaurant",
+            "Grocery",
+            "Supermarket"
+          ],
+          "neverExpired": true
+        },
+        {
+          "percent": 3,
+          "categories": [
+            "Gas Station"
+          ],
+          "neverExpired": true
+        }
+      ]
+    },
+    {
+      "issuer": "AAA",
+      "names": [
+        "Daily Advantage",
+        "AAA Daily Advantage"
+      ],
+      "cashbacks": [
+        {
+          "percent": 5,
+          "categories": [
+            "Grocery",
+            "Supermarket"
+          ],
+          "neverExpired": true
+        },
+        {
+          "percent": 3,
+          "categories": [
+            "Wholesale Clubs",
+            "Drugstore"
+          ],
+          "neverExpired": true
+        }
+      ]
+    }
+  ]
+}
