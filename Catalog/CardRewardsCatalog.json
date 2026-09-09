@@ -36,6 +36,17 @@
                 "Drugstore"
               ],
               "neverExpired": true
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Gas Station",
+                "Public Transit",
+                "Live Entertainment",
+                "Charity"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2026"
             }
           ]
         },
@@ -346,6 +357,25 @@
         "Discover"
       ],
       "cards": [
+        {
+          "names": [
+            "Discover it",
+            "Discover It",
+            "Discover it Cash Back"
+          ],
+          "cashbacks": [
+            {
+              "percent": 5,
+              "categories": [
+                "Gas Station",
+                "Travel",
+                "Drugstore"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2026"
+            }
+          ]
+        },
         {
           "names": [
             "it Chrome",
