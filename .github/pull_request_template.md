@@ -11,3 +11,5 @@
 - [ ] JSON is valid
 - [ ] Issuer and card name aliases look correct
 - [ ] Category names match app categories
+
+<!-- Verification PR: delete after confirming branch protection works -->
