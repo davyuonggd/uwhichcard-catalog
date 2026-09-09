@@ -5,7 +5,14 @@ REPO="davyuonggd/uwhichcard-catalog"
 OWNER_ID=11054157
 
 if ! command -v gh >/dev/null; then echo "Install GitHub CLI: brew install gh" >&2; exit 1; fi
-if ! gh auth status >/dev/null 2>&1; then echo "Run: gh auth login" >&2; exit 1; fi
+if ! gh auth status >/dev/null 2>&1; then
+  if [[ -n "${GH_TOKEN:-}" || -n "${GITHUB_TOKEN:-}" ]]; then
+    export GH_TOKEN="${GH_TOKEN:-${GITHUB_TOKEN}}"
+  else
+    echo "Run: gh auth login (or set GH_TOKEN / GITHUB_TOKEN)" >&2
+    exit 1
+  fi
+fi
 
 existing_ruleset_id="$(gh api "repos/${REPO}/rulesets" --jq '.[] | select(.name == "Protect main and develop") | .id' 2>/dev/null || true)"
 
@@ -14,6 +21,7 @@ payload="$(cat <<EOF
   "name": "Protect main and develop",
   "target": "branch",
   "enforcement": "active",
+  "bypass_actors": [],
   "conditions": {
     "ref_name": {
       "include": ["refs/heads/main", "refs/heads/develop"],
@@ -39,6 +47,14 @@ payload="$(cat <<EOF
         ]
       }
     },
+    {
+      "type": "restrict_pushes",
+      "parameters": {
+        "restrictions": [
+          { "id": ${OWNER_ID}, "type": "User" }
+        ]
+      }
+    },
     { "type": "deletion", "parameters": {} },
     { "type": "non_fast_forward", "parameters": {} }
   ]
@@ -52,4 +68,15 @@ else
   gh api --method POST "repos/${REPO}/rulesets" --input - <<<"${payload}"
 fi
 
-echo "Done. Only @davyuonggd can satisfy required reviews on main/develop."
+echo "Ruleset applied. Only @davyuonggd can push to or approve changes on main/develop."
+
+echo "Hardening repository settings..."
+gh api --method PUT "repos/${REPO}/actions/permissions" \
+  -f enabled=true \
+  -f allowed_actions=all
+
+gh api --method PUT "repos/${REPO}/actions/permissions/workflow" \
+  -f default_workflow_permissions=read \
+  -F can_approve_pull_request_reviews=false
+
+echo "Done."
