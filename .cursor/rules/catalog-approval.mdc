@@ -1,0 +1,15 @@
+---
+description: Require explicit user approval before any uwhichcard-catalog git changes
+alwaysApply: true
+---
+
+# uwhichcard-catalog approval required
+
+The catalog repo (`davyuonggd/uwhichcard-catalog`) holds production card-rewards data fetched by the app at runtime.
+
+Before any git write to that repo (commit, push, merge, or `gh pr create`):
+1. Show the full diff and summarize what changed.
+2. Wait for explicit user approval (e.g. "approved", "commit it", "push it").
+3. Never push directly to `main` or `develop` unless the user explicitly requests a direct push.
+
+Default workflow: edit locally → present diff → user approves → push to a feature branch and open a PR (or direct push only if user asks).
