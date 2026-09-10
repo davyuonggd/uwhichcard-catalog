@@ -47,6 +47,17 @@
               ],
               "neverExpired": false,
               "expirationDate": "09/30/2026"
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Travel",
+                "Department Stores",
+                "Old Navy",
+                "Paypal"
+              ],
+              "neverExpired": false,
+              "expirationDate": "12/31/2026"
             }
           ]
         },
@@ -373,6 +384,17 @@
               ],
               "neverExpired": false,
               "expirationDate": "09/30/2026"
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Dining",
+                "Restaurant",
+                "Live Entertainment",
+                "Utilities"
+              ],
+              "neverExpired": false,
+              "expirationDate": "12/31/2026"
             }
           ]
         },
