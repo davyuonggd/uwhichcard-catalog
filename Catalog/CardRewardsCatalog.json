@@ -49,10 +49,41 @@
             {
               "percent": 5,
               "categories": [
-                "Travel",
-                "Department Stores",
-                "Old Navy",
-                "Paypal"
+                "Grocery",
+                "Supermarket",
+                "Dining",
+                "Restaurant",
+                "Charity"
+              ],
+              "neverExpired": false,
+              "expirationDate": "12/31/2026"
+            }
+          ]
+        },
+        {
+          "names": [
+            "Freedom"
+          ],
+          "cashbacks": [
+            {
+              "percent": 5,
+              "categories": [
+                "Gas Station",
+                "Public Transit",
+                "Live Entertainment",
+                "Charity"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2026"
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Grocery",
+                "Supermarket",
+                "Dining",
+                "Restaurant",
+                "Charity"
               ],
               "neverExpired": false,
               "expirationDate": "12/31/2026"
@@ -228,6 +259,7 @@
         {
           "names": [
             "Savor",
+            "Savor Rewards",
             "Savor Cash Rewards"
           ],
           "cashbacks": [
@@ -240,6 +272,25 @@
                 "Supermarket",
                 "Streaming Services",
                 "Live Entertainment"
+              ],
+              "neverExpired": true
+            }
+          ]
+        },
+        {
+          "names": [
+            "SavorOne"
+          ],
+          "cashbacks": [
+            {
+              "percent": 3,
+              "categories": [
+                "Dining",
+                "Restaurant",
+                "Grocery",
+                "Supermarket",
+                "Entertainment",
+                "Streaming Services"
               ],
               "neverExpired": true
             }
@@ -327,6 +378,37 @@
               "neverExpired": true
             }
           ]
+        },
+        {
+          "names": [
+            "Dividend",
+            "Dividend Platinum"
+          ],
+          "cashbacks": [
+            {
+              "percent": 5,
+              "categories": [
+                "Gas Station",
+                "Home Improvement Store"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2026"
+            }
+          ]
+        },
+        {
+          "names": [
+            "Custom Cash"
+          ],
+          "cashbacks": [
+            {
+              "percent": 5,
+              "categories": [
+                "User-choice"
+              ],
+              "neverExpired": true
+            }
+          ]
         }
       ]
     },
@@ -369,6 +451,35 @@
           "names": [
             "It",
             "It Cash Back"
+          ],
+          "cashbacks": [
+            {
+              "percent": 5,
+              "categories": [
+                "Gas Station",
+                "Travel",
+                "Drugstore"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2026"
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Dining",
+                "Restaurant",
+                "Entertainment",
+                "Utilities"
+              ],
+              "neverExpired": false,
+              "expirationDate": "12/31/2026"
+            }
+          ]
+        },
+        {
+          "names": [
+            "It Student",
+            "Student Cash Back"
           ],
           "cashbacks": [
             {
@@ -457,6 +568,31 @@
               "categories": [
                 "Grocery",
                 "Supermarket"
+              ],
+              "neverExpired": true
+            }
+          ]
+        },
+        {
+          "names": [
+            "Altitude Go"
+          ],
+          "cashbacks": [
+            {
+              "percent": 4,
+              "categories": [
+                "Dining",
+                "Restaurant"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "Grocery",
+                "Supermarket",
+                "Gas Station",
+                "Streaming Services"
               ],
               "neverExpired": true
             }
