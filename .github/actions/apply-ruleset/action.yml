@@ -1,0 +1,6 @@
+name: Apply branch protection
+runs:
+  using: composite
+  steps:
+    - run: echo apply
+      shell: bash
