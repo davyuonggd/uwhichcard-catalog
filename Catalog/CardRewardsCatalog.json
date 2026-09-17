@@ -18,13 +18,6 @@
                 "Drugstore"
               ],
               "neverExpired": true
-            },
-            {
-              "percent": 1.5,
-              "categories": [
-                "All purchases"
-              ],
-              "neverExpired": true
             }
           ]
         },
