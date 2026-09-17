@@ -96,13 +96,24 @@
           ],
           "cashbacks": [
             {
+              "percent": 5,
+              "categories": [
+                "Chase Travel"
+              ],
+              "neverExpired": true
+            },
+            {
               "percent": 3,
               "categories": [
                 "Dining",
                 "Restaurant",
-                "Grocery",
-                "Online Shopping",
-                "Streaming Services"
+                "Streaming Services",
+                "Online Grocery",
+                "Gas Station",
+                "EV Charging",
+                "Vacation Home",
+                "Airbnb",
+                "Vrbo"
               ],
               "neverExpired": true
             },
@@ -112,6 +123,30 @@
                 "Travel"
               ],
               "neverExpired": true
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Lyft"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2027"
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Peloton"
+              ],
+              "neverExpired": false,
+              "expirationDate": "12/31/2027"
+            },
+            {
+              "percent": 10,
+              "categories": [
+                "Paze"
+              ],
+              "neverExpired": false,
+              "expirationDate": "12/31/2026"
             }
           ]
         },
