@@ -11,6 +11,13 @@
           ],
           "cashbacks": [
             {
+              "percent": 5,
+              "categories": [
+                "Chase Travel"
+              ],
+              "neverExpired": true
+            },
+            {
               "percent": 3,
               "categories": [
                 "Dining",
@@ -18,6 +25,23 @@
                 "Drugstore"
               ],
               "neverExpired": true
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "Lyft"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2027"
+            },
+            {
+              "percent": 10,
+              "categories": [
+                "Paze"
+              ],
+              "neverExpired": false,
+              "startDate": "05/01/2026",
+              "expirationDate": "12/31/2026"
             }
           ]
         },
@@ -56,6 +80,31 @@
                 "Charity"
               ],
               "neverExpired": false,
+              "startDate": "10/01/2026",
+              "expirationDate": "12/31/2026"
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Chase Travel"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "Lyft"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2027"
+            },
+            {
+              "percent": 10,
+              "categories": [
+                "Paze"
+              ],
+              "neverExpired": false,
+              "startDate": "05/01/2026",
               "expirationDate": "12/31/2026"
             }
           ]
@@ -86,6 +135,24 @@
                 "Charity"
               ],
               "neverExpired": false,
+              "startDate": "10/01/2026",
+              "expirationDate": "12/31/2026"
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "Lyft"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2027"
+            },
+            {
+              "percent": 10,
+              "categories": [
+                "Paze"
+              ],
+              "neverExpired": false,
+              "startDate": "05/01/2026",
               "expirationDate": "12/31/2026"
             }
           ]
@@ -96,13 +163,24 @@
           ],
           "cashbacks": [
             {
+              "percent": 5,
+              "categories": [
+                "Chase Travel"
+              ],
+              "neverExpired": true
+            },
+            {
               "percent": 3,
               "categories": [
                 "Dining",
                 "Restaurant",
-                "Grocery",
-                "Online Shopping",
-                "Streaming Services"
+                "Streaming Services",
+                "Online Grocery",
+                "Gas Station",
+                "EV Charging",
+                "Vacation Home",
+                "Airbnb",
+                "Vrbo"
               ],
               "neverExpired": true
             },
@@ -112,6 +190,31 @@
                 "Travel"
               ],
               "neverExpired": true
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Lyft"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2027"
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Peloton"
+              ],
+              "neverExpired": false,
+              "expirationDate": "12/31/2027"
+            },
+            {
+              "percent": 10,
+              "categories": [
+                "Paze"
+              ],
+              "neverExpired": false,
+              "startDate": "05/01/2026",
+              "expirationDate": "12/31/2026"
             }
           ]
         },
@@ -121,13 +224,51 @@
           ],
           "cashbacks": [
             {
+              "percent": 8,
+              "categories": [
+                "Chase Travel"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 4,
+              "categories": [
+                "Airline",
+                "Hotel"
+              ],
+              "neverExpired": true
+            },
+            {
               "percent": 3,
               "categories": [
                 "Dining",
-                "Restaurant",
-                "Travel"
+                "Restaurant"
               ],
               "neverExpired": true
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Lyft"
+              ],
+              "neverExpired": false,
+              "expirationDate": "09/30/2027"
+            },
+            {
+              "percent": 10,
+              "categories": [
+                "Peloton"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 10,
+              "categories": [
+                "Paze"
+              ],
+              "neverExpired": false,
+              "startDate": "05/01/2026",
+              "expirationDate": "12/31/2026"
             }
           ]
         },
@@ -167,6 +308,13 @@
               "percent": 5,
               "categories": [
                 "Amazon"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Chase Travel"
               ],
               "neverExpired": true
             },
@@ -245,6 +393,20 @@
                 "Supermarket"
               ],
               "neverExpired": true
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Amex Travel"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 3,
+              "categories": [
+                "Airline"
+              ],
+              "neverExpired": true
             }
           ]
         }
@@ -274,6 +436,20 @@
                 "Live Entertainment"
               ],
               "neverExpired": true
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Capital One Travel"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 8,
+              "categories": [
+                "Capital One Entertainment"
+              ],
+              "neverExpired": true
             }
           ]
         },
@@ -291,6 +467,13 @@
                 "Supermarket",
                 "Entertainment",
                 "Streaming Services"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 8,
+              "categories": [
+                "Capital One Entertainment"
               ],
               "neverExpired": true
             }
@@ -333,6 +516,13 @@
             "Strata Premier"
           ],
           "cashbacks": [
+            {
+              "percent": 10,
+              "categories": [
+                "Citi Travel"
+              ],
+              "neverExpired": true
+            },
             {
               "percent": 3,
               "categories": [
@@ -472,6 +662,7 @@
                 "Utilities"
               ],
               "neverExpired": false,
+              "startDate": "10/01/2026",
               "expirationDate": "12/31/2026"
             }
           ]
@@ -501,6 +692,7 @@
                 "Utilities"
               ],
               "neverExpired": false,
+              "startDate": "10/01/2026",
               "expirationDate": "12/31/2026"
             }
           ]
@@ -641,6 +833,13 @@
               "percent": 3,
               "categories": [
                 "Paypal"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "All purchases"
               ],
               "neverExpired": true
             }
