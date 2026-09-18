@@ -56,6 +56,7 @@
                 "Charity"
               ],
               "neverExpired": false,
+              "startDate": "10/01/2026",
               "expirationDate": "12/31/2026"
             }
           ]
@@ -86,6 +87,7 @@
                 "Charity"
               ],
               "neverExpired": false,
+              "startDate": "10/01/2026",
               "expirationDate": "12/31/2026"
             }
           ]
@@ -146,6 +148,7 @@
                 "Paze"
               ],
               "neverExpired": false,
+              "startDate": "05/01/2026",
               "expirationDate": "12/31/2026"
             }
           ]
@@ -507,6 +510,7 @@
                 "Utilities"
               ],
               "neverExpired": false,
+              "startDate": "10/01/2026",
               "expirationDate": "12/31/2026"
             }
           ]
@@ -536,6 +540,7 @@
                 "Utilities"
               ],
               "neverExpired": false,
+              "startDate": "10/01/2026",
               "expirationDate": "12/31/2026"
             }
           ]
