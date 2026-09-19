@@ -42,6 +42,13 @@
               "neverExpired": false,
               "startDate": "05/01/2026",
               "expirationDate": "12/31/2026"
+            },
+            {
+              "percent": 1.5,
+              "categories": [
+                "All purchases"
+              ],
+              "neverExpired": true
             }
           ]
         },
@@ -893,6 +900,13 @@
               "percent": 3,
               "categories": [
                 "Gas Station"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "All purchases"
               ],
               "neverExpired": true
             }
