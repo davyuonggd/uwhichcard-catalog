@@ -306,6 +306,61 @@
         },
         {
           "names": [
+            "Ink Business Unlimited",
+            "Ink Unlimited"
+          ],
+          "cashbacks": [
+            {
+              "percent": 1.5,
+              "categories": [
+                "All purchases"
+              ],
+              "neverExpired": true
+            }
+          ]
+        },
+        {
+          "names": [
+            "Ink Business Preferred",
+            "Ink Preferred"
+          ],
+          "cashbacks": [
+            {
+              "percent": 3,
+              "categories": [
+                "Travel",
+                "Shipping",
+                "Advertising",
+                "Utilities"
+              ],
+              "neverExpired": true
+            }
+          ]
+        },
+        {
+          "names": [
+            "Ink Business Premier",
+            "Ink Premier"
+          ],
+          "cashbacks": [
+            {
+              "percent": 5,
+              "categories": [
+                "Chase Travel"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "All purchases"
+              ],
+              "neverExpired": true
+            }
+          ]
+        },
+        {
+          "names": [
             "Amazon Prime Visa",
             "Prime Visa",
             "Amazon Rewards Visa"
@@ -485,6 +540,64 @@
               "neverExpired": true
             }
           ]
+        },
+        {
+          "names": [
+            "Venture",
+            "Venture Rewards"
+          ],
+          "cashbacks": [
+            {
+              "percent": 5,
+              "categories": [
+                "Capital One Travel"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Capital One Entertainment"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "All purchases"
+              ],
+              "neverExpired": true
+            }
+          ]
+        },
+        {
+          "names": [
+            "Venture X",
+            "VentureX"
+          ],
+          "cashbacks": [
+            {
+              "percent": 10,
+              "categories": [
+                "Capital One Travel"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Capital One Entertainment"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "All purchases"
+              ],
+              "neverExpired": true
+            }
+          ]
         }
       ]
     },
@@ -506,6 +619,20 @@
                 "Travel",
                 "Gas Station",
                 "Streaming Services"
+              ],
+              "neverExpired": true
+            }
+          ]
+        },
+        {
+          "names": [
+            "Active Cash"
+          ],
+          "cashbacks": [
+            {
+              "percent": 2,
+              "categories": [
+                "All purchases"
               ],
               "neverExpired": true
             }
@@ -606,6 +733,27 @@
               "neverExpired": true
             }
           ]
+        },
+        {
+          "names": [
+            "Double Cash"
+          ],
+          "cashbacks": [
+            {
+              "percent": 5,
+              "categories": [
+                "Citi Travel"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "All purchases"
+              ],
+              "neverExpired": true
+            }
+          ]
         }
       ]
     },
@@ -632,6 +780,21 @@
                 "Grocery",
                 "Supermarket",
                 "Wholesale Clubs"
+              ],
+              "neverExpired": true
+            }
+          ]
+        },
+        {
+          "names": [
+            "Unlimited Cash Rewards",
+            "Unlimited Cash"
+          ],
+          "cashbacks": [
+            {
+              "percent": 1.5,
+              "categories": [
+                "All purchases"
               ],
               "neverExpired": true
             }
@@ -937,6 +1100,34 @@
               "categories": [
                 "Wholesale Clubs",
                 "Drugstore"
+              ],
+              "neverExpired": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "names": [
+        "Apple"
+      ],
+      "cards": [
+        {
+          "names": [
+            "Apple Card"
+          ],
+          "cashbacks": [
+            {
+              "percent": 3,
+              "categories": [
+                "Apple merchants"
+              ],
+              "neverExpired": true
+            },
+            {
+              "percent": 2,
+              "categories": [
+                "Apple Pay"
               ],
               "neverExpired": true
             }
