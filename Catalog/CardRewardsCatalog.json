@@ -717,6 +717,17 @@
               ],
               "neverExpired": false,
               "expirationDate": "09/30/2026"
+            },
+            {
+              "percent": 5,
+              "categories": [
+                "Dining",
+                "Restaurant",
+                "Citi Travel"
+              ],
+              "neverExpired": false,
+              "startDate": "10/01/2026",
+              "expirationDate": "12/31/2026"
             }
           ]
         },
